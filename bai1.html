@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .button {
+            margin: 10px;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<button class="button" style="background-color: white;" onclick="changeColor('white')">Trắng</button>
+<button class="button" style="background-color: red;" onclick="changeColor('red')">Đỏ</button>
+<button class="button" style="background-color: green;" onclick="changeColor('green')">Xanh lá</button>
+<button class="button" style="background-color: blue;" onclick="changeColor('blue')">Xanh dương</button>
+
+<script>
+    function changeColor(color) {
+        document.body.style.background = color;
+    }
+</script>
+
+</body>
+</html>
